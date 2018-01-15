@@ -6,6 +6,10 @@ body, section, div, nav, aside, p, a, ul, li {
 }
 
 /* svg */
+.logo {
+    width: 160px;
+    margin: 0 0 40px;
+}
 .logo path {
     opacity: 1;
     fill: #c00;
