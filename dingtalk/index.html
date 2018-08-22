@@ -16,10 +16,10 @@
             dd.runtime.permission.requestAuthCode({
                 corpId: "corpid",
                 onSuccess: function (result) {
-                    aletr(result)
+                    aletr(JSON.stringify(result))
                 },
                 onFail: function (err) {
-                    alert(err)
+                    alert(JSON.stringify(err))
                 }
             });
         });
